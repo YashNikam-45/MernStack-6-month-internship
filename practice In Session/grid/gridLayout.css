@@ -1,0 +1,52 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "nav nav nav nav nav nav nav nav nav nav nav nav"
+                           "sb sb mc mc mc mc mc mc mc mc ab ab" 
+                           "sb sb ls ls ls ls rs rs rs rs ab ab"
+                           "fs fs fs fs fs fs fs fs fs fs fs fs";
+    gap: 10px;
+
+}
+.navbar{
+    grid-area: nav;
+    background-color: aqua;
+    height: 100px;
+}
+.sidebar{
+    grid-area: sb;
+    background-color: rgb(177, 228, 118);
+}
+.mainContent{
+    grid-area: mc;
+    background-color: rgb(54, 69, 4);
+    height: 80vh;
+}
+.advBar{
+    grid-area: ab;
+    background-color: rgb(8, 32, 32);
+}
+.leftSection{
+    grid-area: ls;
+    background-color: rgb(196, 29, 159);
+    height: 200px;
+
+}
+.rightSection{
+    grid-area: rs;
+    background-color: rgb(198, 57, 57);
+    height: 200px;
+}
+.footerSection{
+    grid-area: fs;
+    background-color: rgb(108, 120, 235);
+    height: 20vh;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
