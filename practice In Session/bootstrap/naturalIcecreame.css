@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.headline{
+    background-color: rgb(49, 183, 49);
+    font-weight: 800;
+}
+.vertical-line {
+    height: 100px;
+    width: 1px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    
+}
