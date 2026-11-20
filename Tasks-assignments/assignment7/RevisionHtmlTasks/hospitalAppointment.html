@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Appointment Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>City Care Hospital</h1>
+        <h2>Patient Appointment Form</h2>
+
+        <form>
+
+            <label>Patient Name:</label>
+            <input type="text" placeholder="Enter patient name" required>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter email" required>
+
+            <label>Phone Number:</label>
+            <input type="tel" placeholder="Enter phone number" required>
+
+            <label>Age:</label>
+            <input type="number" placeholder="Enter age">
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+
+            <label>Select Department:</label>
+            <select>
+                <option>Select Department</option>
+                <option>Cardiology</option>
+                <option>Neurology</option>
+                <option>Orthopedics</option>
+                <option>Dermatology</option>
+                <option>General Medicine</option>
+            </select>
+
+            <label>Select Doctor:</label>
+            <select>
+                <option>Select Doctor</option>
+                <option>Dr. Rahul Sharma</option>
+                <option>Dr. Priya Patil</option>
+                <option>Dr. Amit Verma</option>
+                <option>Dr. Sneha Joshi</option>
+            </select>
+
+            <label>Appointment Date:</label>
+            <input type="date" required>
+
+            <label>Symptoms:</label>
+            <textarea rows="4" placeholder="Describe your symptoms"></textarea>
+
+            <label>Medical History:</label>
+            <textarea rows="4" placeholder="Enter previous medical history"></textarea>
+
+            <button type="submit">Book Appointment</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
